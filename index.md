@@ -110,9 +110,11 @@ Nas próximas iterações vamos trabalhar na tela inicial, acrescentando uma lis
 ## Decisões da iteração
 
 - Aproximar o conceito do jogo à ideia do Duolingo
+
 À medida que o projeto progrediu, dada a proximidade do jogo desenvolvido com o aplicativo Duolingo, decidimos aproximar ainda mais os requisitos finais à interface do Duolingo, visto que este é uma ferramenta de ensino muito bem sucedida.
 
 - Adicionar explicações
+
 Além de responder às questões, o jogador terá acesso a um "tutorial", algumas dicas e notas a respeito do conteúdo que o ajudarão a progredir e conseguir mais acertos no jogo.
 
 - Adicionar sistema de pontuação
@@ -133,7 +135,7 @@ Além de responder às questões, o jogador terá acesso a um "tutorial", alguma
     - Utilização da ferramenta Android Studio
     - Implementação de funcionalidades no jogo
 
-Coordenar membros do grupo
+- Coordenar membros do grupo
 
 
 ## Produto
