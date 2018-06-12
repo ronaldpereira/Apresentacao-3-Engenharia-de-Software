@@ -88,20 +88,19 @@ Nas próximas iterações vamos trabalhar na tela inicial, acrescentando uma lis
 - Dono do Produto: Vitor Menezello
 - Mestre Scrum: Luiz Otávio
 - Desenvolvedores:
-    - Desenvolvimento do aplicativo:
-        - Breno Rodrigues
-        - Gabriel Oliveira
-        - Ivan Soares
+    - Aspectos visuais:
         - Marina Moreira
         - Pedro Brum
-        - Rafael Grandsire
-        - Ronald Pereira
+        - Vitor Menezello
     - Busca de conteúdo:
         - Breno Rodrigues
         - Gabriel Oliveira
         - Ronald Pereira
-    - Desenvolvimento da base de dados:
+    - Desenvolvimento:
+        - Ivan Soares
+        - Rafael Grandsire
         - Pedro Dalla
+        - Luiz Otavio
     - Desenvolvimento do site:
         - Ronald Pereira
 
