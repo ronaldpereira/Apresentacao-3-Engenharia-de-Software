@@ -1,4 +1,4 @@
-# Unit Test Quiz - Apresentação 3
+# Unit Test Quiz - Apresentação 4
 
 # O que é o CMMI
 
@@ -27,19 +27,6 @@ Entre abril de 2002 e junho de 2006 foram conduzidas 1581 avaliações em 1337 o
 
 ## Requisitos
 
-### Reserva de Requisitos
-
-- Tela inicial
-    - Design da tela
-- Lista de tópicos disponíveis no aplicativo
-- Estatísticas do jogo
-    - Performance ao final de cada jogo
-- Desbloquear módulos de atividades mais avançados
-- Melhorar interface visual
-- Implementar fluxos para todos casos de uso
-- Estatísticas de jogo
-
-
 ### Requisitos das iterações
 
 - Iteração 1 (dias 1 a 15)
@@ -65,6 +52,15 @@ Entre abril de 2002 e junho de 2006 foram conduzidas 1581 avaliações em 1337 o
         - Mudar questão para questão não respondida após acerto
         - Indicar se questão já foi respondida corretamente (dando highlight na resposta)
 
+- Iteração 4 (dias 46 a 60)
+    - Categorização das perguntas em módulos
+    - Tela inicial: apresentar lista de módulos de perguntas
+    - Navegação entre questões
+        - Botões: anterior, próxima, dicas
+    - Destacar acertos e erros
+    - Adicionar mais questões no jogo
+    - Organização da equipe em times
+
 
 ## Projeto
 
@@ -72,16 +68,13 @@ Entre abril de 2002 e junho de 2006 foram conduzidas 1581 avaliações em 1337 o
 
 A visão desse trabalho é, em suma, a criação de um "jogo sério" na área de engenharia de software, de forma que ele possa ser utilizado como uma forma alternativa de estudo com a finalidade de estimular o aprendizado dos estudantes sobre os conceitos da área, mais especificamente sobre a área de testes unitários de software.
 
-### Próximas iterações
-
-Nas próximas iterações vamos trabalhar na tela inicial, acrescentando uma lista com ranking das maiores pontuações. Além disso, vamos desenvolver a tela de questão, implementando a progressão para uma questão ainda não respondida após um acerto, e indicar se uma questão já foi respondida corretamente.
-
 
 ### Gestão de configuração
 
-- Aprimoramento do banco de questões
-- Criação do modelo de jogo em progresso
-- Implementar funcionalidades do jogo
+- Especificação dos casos de uso
+- Versionamento com GitHub
+- Controle de tarefas a cada iteração com ZenHub
+- Testes de regressão
 
 ## Organização e Contribuições do grupo
 
@@ -104,34 +97,27 @@ Nas próximas iterações vamos trabalhar na tela inicial, acrescentando uma lis
     - Desenvolvimento do site:
         - Ronald Pereira
 
+Nessa iteração, o time de conteúdo foi responsável por incluir mais questões no banco, revisar as quetões já presentes, e finalmente organizá-las em módulos. O time de aspectos visuais foi encarregado dos layouts, apresentação e página web. Por fim, o time de desenvolvimento foi incubido de desbloquear módulos avançados e realizar testes de software.
+
+
 ## Decisões da iteração
 
-- Aproximar o conceito do jogo à ideia do Duolingo
+- Sistema sem servidor
 
-À medida que o projeto progrediu, dada a proximidade do jogo desenvolvido com o aplicativo Duolingo, decidimos aproximar ainda mais os requisitos finais à interface do Duolingo, visto que este é uma ferramenta de ensino muito bem sucedida.
+A equipe concluiu que a presença de um servidor não beneficiaria o projeto, pois sua função no jogo não seria notável o suficiente para compensar o trabalho de implementá-lo.
 
-- Adicionar explicações
+- Melhoria na definição de subtarefas
 
-Além de responder às questões, o jogador terá acesso a um "tutorial", algumas dicas e notas a respeito do conteúdo que o ajudarão a progredir e conseguir mais acertos no jogo.
-
-- Adicionar sistema de pontuação
-
-- Separar as questões por módulos
-
-- Indicar progresso em cada módulo através da pontuação
+- Revisão de conteúdo
 
 
 ## Desafios encontrados
 
 - Banco de perguntas
-    - selecionar as questões mais relevantes para cada um dos módulos
-        - Conceitos Gerais
-        - Testes
-
-- Desenvolvimento para Android
+    - Revisão e categorização
+- Design das telas
     - Utilização da ferramenta Android Studio
-    - Implementação de funcionalidades no jogo
-
+- Versionamento do repositório de GitHub
 - Coordenar membros do grupo
 
 
